@@ -11,7 +11,7 @@ LICENSE=	MIT
 
 ONLY_FOR_ARCHS=	aarch64 amd64 armv6 armv7 i386
 
-USES=		go:1.24,modules
+USES=		go:modules
 
 USE_RC_SUBR=	telegraf
 
